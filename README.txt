@@ -11,8 +11,8 @@ The first thing I did was to remove the 'message' column from the downloaded "ba
 such as the following:
 
 mv /Users/markyashar/digital-wallet/paymo_input/batch_payment.csv /Users/markyashar/digital-wallet/paymo_input/batch_payment.csv_orig
-# ! cut -d, -f1-4 /Users/markyashar/digital-wallet/paymo_input/batch_payment.csv_orig > /Users/markyashar/digital-wallet/paymo_input/batch_payment.csv
+cut -d, -f1-4 /Users/markyashar/digital-wallet/paymo_input/batch_payment.csv_orig > /Users/markyashar/digital-wallet/paymo_input/batch_payment.csv
 
-Note that the resulting modified "batch_payment.csv" and "stream_payment.csv" files were too large to upload to the github
+Note that the resulting modified "batch_payment.csv" and "stream_payment.csv" files were still too large to upload to the github
 repository. Therefore, they will NOT be found in https://github.com/markyashar/InsightDataScience-digital-wallet/paymo_input/
   
