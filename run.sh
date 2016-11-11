@@ -5,4 +5,4 @@
 
 # I'll execute my programs, with the input directory paymo_input and output the files in the directory paymo_output
 # python ./src/antifraud.py ./paymo_input/batch_payment.csv ./paymo_input/stream_payment.csv ./paymo_output/output1.txt ./paymo_output/output2.txt ./paymo_output/output3.txt
-python /Users/markyashar/digital-wallet/src/antifraud.py
+python src/antifraud.py
